@@ -3,6 +3,7 @@ import './Home.css';
 
 import Navbar from '../components/layout/Navbar';
 import Header from '../components/layout/Header';
+import MenuTap from '../components/common/MenuTap';
 
 import logo from '../assets/logo.png';
 
@@ -31,6 +32,15 @@ const Home = () => {
         </div>
 
         <Header />
+
+        <div className='menuSec'>
+            <MenuTap menuTxt="Apply Online" />
+            <MenuTap menuTxt="News" />
+            <MenuTap menuTxt="Blog Articles" />
+            <MenuTap menuTxt="CIB Internationals" />
+            <MenuTap menuTxt="Sustainable Finance" />
+            <MenuTap menuTxt="Awards" />
+        </div>
 
         </>
 

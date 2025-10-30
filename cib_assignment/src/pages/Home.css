@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #FAFAFA;
+}
+
 .navSec{
     width: 100%;
     height: 10vh;
@@ -25,6 +29,20 @@
 .navLinks{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+.menuSec{
+
+    margin: 2rem auto;
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+
+    display: flex;
+    padding-left: 10rem;
     align-items: center;
     gap: 1.5rem;
 }
