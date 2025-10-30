@@ -4,6 +4,7 @@ import './Home.css';
 import Navbar from '../components/layout/Navbar';
 import Header from '../components/layout/Header';
 import MenuTap from '../components/common/MenuTap';
+import SmallTitle from '../components/common/SmallTitle';
 
 import logo from '../assets/logo.png';
 
@@ -41,6 +42,12 @@ const Home = () => {
             <MenuTap menuTxt="Sustainable Finance" />
             <MenuTap menuTxt="Awards" />
         </div>
+
+        <section className='applySec'>
+            <div className='titles'>
+                <SmallTitle SmallTitle="APPLY ONLINE" />
+            </div>
+        </section>
 
         </>
 
