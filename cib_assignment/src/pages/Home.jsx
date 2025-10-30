@@ -7,6 +7,7 @@ import MenuTap from '../components/common/MenuTap';
 import SmallTitle from '../components/common/SmallTitle';
 
 import logo from '../assets/logo.png';
+import Title from '../components/common/Title';
 
 
 const Home = () => {
@@ -44,9 +45,13 @@ const Home = () => {
         </div>
 
         <section className='applySec'>
+
             <div className='titles'>
                 <SmallTitle SmallTitle="APPLY ONLINE" />
+                <Title title=" Apply online now for cards and loans with ease!" />
             </div>
+
+            <div className='cards1Sec'></div>
         </section>
 
         </>
