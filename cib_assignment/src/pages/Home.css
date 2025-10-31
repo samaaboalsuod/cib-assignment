@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -109,4 +111,53 @@ body{
     justify-content: center;
     align-items: center;    
     
+}
+
+
+.photoSec{
+    width: 100%;
+    height: fit-content;
+    padding: 4rem 0;
+    background-color: #1858A8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoCont{
+    width: 80%;
+    height: 500px;
+    border-radius: 8px;
+    padding: 0 0 2rem 2rem;
+    background-image: url('../assets/img7.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.whiteCard{
+    width: 40%;
+    height: 30vh;
+    padding: 2rem;
+    background-color: #FFF;
+    border-top: 4px solid #F58420;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.whiteCard h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333333;
 }

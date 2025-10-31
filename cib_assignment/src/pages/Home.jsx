@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './Home.css';
 
 import logo from '../assets/logo.png';
+
+
 import Navbar from '../components/layout/Navbar';
 import Header from '../components/layout/Header';
 import MenuTap from '../components/common/MenuTap';
@@ -12,6 +14,7 @@ import SubTitle from '../components/common/SubTitle';
 import Card2 from './../components/common/Card2';
 import Button from '../components/common/Button';
 import Card3 from '../components/common/Card3';
+import Card2p from '../components/common/Card2p';
 
 
 
@@ -87,6 +90,18 @@ const Home = () => {
             </div>
 
             <Button btnTxt="View All News" />
+
+        </section>
+
+        <section className='photoSec'>
+
+            <div className='photoCont'>
+                <div className='whiteCard'>
+                    <h3>CIB on an international scale</h3>
+                    <Card2p Card2p="Learn more about CIB's presence outside of Egypt" />
+                    <Button btnTxt="Learn More" />
+                </div>
+            </div>
 
         </section>
 
