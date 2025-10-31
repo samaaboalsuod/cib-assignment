@@ -1,0 +1,98 @@
+footer{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footTopSec{
+    width: 100%;
+    background-color: #1D3766;
+    padding: 4rem 0 2rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TopSecCont{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3rem;
+}
+
+.innetTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding-bottom: 5rem;
+
+    border-bottom: 2px solid #004A88;
+}
+
+.footLinkCont{
+    display: flex;
+    gap: 3rem;
+}
+
+.linkCol{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.logo{
+    flex: 0 0 40px;
+}
+
+/* Ensure footer logo keeps aspect ratio and doesn't stretch */
+.innetTop img{
+    height: 40px;
+    width: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.download{
+    display: flex;
+    gap: 1rem;
+}
+
+.innerBot{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6rem;
+
+}
+
+.linkRow{
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.footBotSec{
+    width: 100%;
+    background-color: #004A88;
+    padding: 1rem 0;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #B8BABC;
+    line-height: 1.5;
+
+    margin-right: 9rem;
+}

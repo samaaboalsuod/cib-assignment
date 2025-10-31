@@ -6,6 +6,8 @@ import logo from '../assets/logo.png';
 
 import Navbar from '../components/layout/Navbar';
 import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
+
 import MenuTap from '../components/common/MenuTap';
 import SmallTitle from '../components/common/SmallTitle';
 import Title from '../components/common/Title';
@@ -149,6 +151,9 @@ const Home = () => {
                 <Card6 />
             </div>
         </section>
+        
+
+        <Footer />
 
         </>
 
