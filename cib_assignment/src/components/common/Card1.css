@@ -12,5 +12,12 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2rem;
+
+    transition: all 0.3s ease;
+}
+
+.card1Cont:hover{
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.20);
+    cursor: pointer;
 }
 

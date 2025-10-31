@@ -3,7 +3,7 @@ import './MenuTap.css';
 
 const MenuTap = (props) => {
     return ( 
-        <h3>{props.menuTxt}</h3>
+        <h3 className='menutitle'>{props.menuTxt}</h3>
      );
 }
  
