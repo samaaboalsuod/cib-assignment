@@ -9,6 +9,7 @@ import logo from '../assets/logo.png';
 import Title from '../components/common/Title';
 import Card1 from './../components/common/Card1';
 import SubTitle from '../components/common/SubTitle';
+import Card2 from './../components/common/Card2';
 
 
 
@@ -61,9 +62,14 @@ const Home = () => {
         </section>
 
         <section className='learnSec'>
+
             <div className='titles'>
                 <Title title="Learning Center" />
                 <SubTitle SubTitle="Learn more about banking and your finances" />
+            </div>
+
+            <div className='cards1Sec'>
+                <Card2 />
             </div>
         </section>
 
