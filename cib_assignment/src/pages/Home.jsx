@@ -11,6 +11,7 @@ import Card1 from './../components/common/Card1';
 import SubTitle from '../components/common/SubTitle';
 import Card2 from './../components/common/Card2';
 import Button from '../components/common/Button';
+import Card3 from '../components/common/Card3';
 
 
 
@@ -74,6 +75,18 @@ const Home = () => {
             </div>
 
             <Button btnTxt="View more" />
+
+        </section>
+
+        <section className='applySec'>
+
+            <Title title="News" />
+
+            <div className='newsSec'>
+                <Card3 />
+            </div>
+
+            <Button btnTxt="View All News" />
 
         </section>
 
