@@ -19,3 +19,12 @@
     align-items: flex-start;
     gap: 1rem;
 }
+
+.card3Cont img {
+    transition: transform 0.3s ease;
+}
+
+.card3Cont img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
