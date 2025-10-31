@@ -7,4 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* prevent the circle from stretching in flex layouts */
+    flex: 0 0 40px;
+    overflow: hidden;
 }
+
