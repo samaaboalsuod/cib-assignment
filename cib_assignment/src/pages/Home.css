@@ -56,7 +56,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.5rem;
     justify-content: center;
     align-items: center;
 }
@@ -92,7 +92,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.5rem;
     justify-content: center;
     align-items: center;
 }

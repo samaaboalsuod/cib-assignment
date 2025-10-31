@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import './Home.css';
 
+import logo from '../assets/logo.png';
 import Navbar from '../components/layout/Navbar';
 import Header from '../components/layout/Header';
 import MenuTap from '../components/common/MenuTap';
 import SmallTitle from '../components/common/SmallTitle';
-import logo from '../assets/logo.png';
 import Title from '../components/common/Title';
 import Card1 from './../components/common/Card1';
 import SubTitle from '../components/common/SubTitle';
 import Card2 from './../components/common/Card2';
+import Button from '../components/common/Button';
 
 
 
@@ -71,6 +72,9 @@ const Home = () => {
             <div className='cards1Sec'>
                 <Card2 />
             </div>
+
+            <Button btnTxt="View more" />
+
         </section>
 
         </>
