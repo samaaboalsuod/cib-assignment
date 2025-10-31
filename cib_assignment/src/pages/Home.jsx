@@ -16,6 +16,7 @@ import Button from '../components/common/Button';
 import Card3 from '../components/common/Card3';
 import Card2p from '../components/common/Card2p';
 import Card4 from '../components/common/Card4';
+import Card5 from './../components/common/Card5';
 
 
 
@@ -115,6 +116,21 @@ const Home = () => {
 
             <div className='cards1Sec'>
                 <Card4 />
+            </div>
+
+            <Button btnTxt="Learn more" />
+
+        </section>
+
+        <section className='applySec2'>
+
+            <div className='titles'>
+                <SmallTitle SmallTitle="AWARDS" />
+                <Title title=" CIB's integrity and quality are recognized internationally" />
+            </div>
+
+            <div className='cards1Sec'>
+                <Card5 />
             </div>
 
             <Button btnTxt="Learn more" />

@@ -3,6 +3,7 @@
     height: 40px;
     border: 2px solid #0060ae69;
     border-radius: 50%;
+    padding: 1rem;
 
     display: flex;
     justify-content: center;

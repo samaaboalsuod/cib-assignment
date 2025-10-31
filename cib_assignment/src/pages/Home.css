@@ -161,3 +161,18 @@ body{
     font-weight: 600;
     color: #333333;
 }
+
+
+.applySec2{
+    margin: 0 auto;
+    width: 100%;
+    height: fit-content;
+    padding: 4rem 0;
+    background-color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
