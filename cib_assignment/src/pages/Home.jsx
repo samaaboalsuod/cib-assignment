@@ -17,6 +17,7 @@ import Card3 from '../components/common/Card3';
 import Card2p from '../components/common/Card2p';
 import Card4 from '../components/common/Card4';
 import Card5 from './../components/common/Card5';
+import Card6 from '../components/common/Card6';
 
 
 
@@ -133,8 +134,20 @@ const Home = () => {
                 <Card5 />
             </div>
 
-            <Button btnTxt="Learn more" />
+            <Button btnTxt="See all our awards" />
             
+        </section>
+
+        <section className='applySec'>
+
+            <div className='titles'>
+                <SmallTitle SmallTitle="We care" />
+                <Title title=" Our dedicated team is committed to meeting your needs" />
+            </div>
+
+            <div className='cards1Sec'>
+                <Card6 />
+            </div>
         </section>
 
         </>
