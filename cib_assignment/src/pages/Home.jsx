@@ -5,9 +5,12 @@ import Navbar from '../components/layout/Navbar';
 import Header from '../components/layout/Header';
 import MenuTap from '../components/common/MenuTap';
 import SmallTitle from '../components/common/SmallTitle';
-
 import logo from '../assets/logo.png';
 import Title from '../components/common/Title';
+import Card1 from './../components/common/Card1';
+
+
+
 
 
 const Home = () => {
@@ -51,7 +54,9 @@ const Home = () => {
                 <Title title=" Apply online now for cards and loans with ease!" />
             </div>
 
-            <div className='cards1Sec'></div>
+            <div className='cards1Sec'>
+                <Card1 />
+            </div>
         </section>
 
         </>

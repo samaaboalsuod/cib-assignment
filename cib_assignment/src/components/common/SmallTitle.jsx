@@ -3,7 +3,7 @@ import './SmallTitle.css';
 
 const SmallTitle = (props) => {
     return ( 
-        <h2>{props.SmallTitle}</h2>
+        <h5>{props.SmallTitle}</h5>
      );
 }
  

@@ -69,3 +69,14 @@ body{
     align-items: center;
     gap: 1rem;
 }
+
+.cards1Sec{
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: #ba0d0d; */
+}
