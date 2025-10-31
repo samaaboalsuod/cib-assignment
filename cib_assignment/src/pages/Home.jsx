@@ -15,6 +15,7 @@ import Card2 from './../components/common/Card2';
 import Button from '../components/common/Button';
 import Card3 from '../components/common/Card3';
 import Card2p from '../components/common/Card2p';
+import Card4 from '../components/common/Card4';
 
 
 
@@ -99,10 +100,25 @@ const Home = () => {
                 <div className='whiteCard'>
                     <h3>CIB on an international scale</h3>
                     <Card2p Card2p="Learn more about CIB's presence outside of Egypt" />
-                    <Button btnTxt="Learn More" />
+                    <Button btnTxt="Learn more" />
                 </div>
             </div>
 
+        </section>
+
+        <section className='applySec'>
+
+            <div className='titles'>
+                <SmallTitle SmallTitle="SUSTAINABLE FINANCE" />
+                <Title title="  Sustainability is an integral part of the way we work" />
+            </div>
+
+            <div className='cards1Sec'>
+                <Card4 />
+            </div>
+
+            <Button btnTxt="Learn more" />
+            
         </section>
 
         </>
